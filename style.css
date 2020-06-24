@@ -3,25 +3,49 @@
     max-width: 1310px;
     margin: 0 auto;
 }
+header {
+    background: red;
+}
 header h1 {
     font-size: 4rem;
-}
-.header-top {
-height: 100px;
 }
 #weather-box {
     font-size: 0.9rem;
 }
 #my-ad-free {
-    margin-bottom: 16px;
     padding: 3px 12px;
     border-radius: 50px;
     margin-left: 20px;
-}
-.login-box {
-    border: 1px solid red;
+    background: #ffe400;
 }
 #weather-icon {
     height: 20px;
     margin-right: 5px;
+}
+.custom-toggler {
+    border: none;
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 2rem;
+}
+.fa-user {
+color: rgba(255, 255, 255, 0.7);
+}
+@media all and (max-width: 992px) {
+    header {
+        height: 50px;
+    }
+    .navbar {
+        display: none;
+    }
+    header h1 {
+        font-size: 2rem;
+    }
+}
+@media all and (max-width: 768px) {
+    #my-ad-free {
+        font-size: .7rem;
+    }
+    .custom-toggler {
+        font-size: 1.5rem;
+    }
 }
