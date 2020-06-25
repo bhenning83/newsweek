@@ -30,7 +30,10 @@ header h1 {
 .fa-user {
 color: rgba(255, 255, 255, 0.7);
 }
-@media all and (max-width: 992px) {
+.nav-link {
+    color: black;
+}
+@media all and (max-width: 991.98px) {
     header {
         height: 50px;
     }
@@ -41,7 +44,7 @@ color: rgba(255, 255, 255, 0.7);
         font-size: 2rem;
     }
 }
-@media all and (max-width: 768px) {
+@media all and (max-width: 767.98px) {
     #my-ad-free {
         font-size: .7rem;
     }
