@@ -1,11 +1,13 @@
 
-#container {
+.page-wrap {
     max-width: 1310px;
     margin: 0 auto;
+    border: 1px solid red;
+    padding: 0;
     font-family: 'Roboto', sans-serif;
 }
 header {
-    background: #f72210;;
+    background: #f72210;
 }
 header h1 {
     font-size: 4rem;
@@ -152,8 +154,41 @@ color: rgba(255, 255, 255, 0.7);
 .in-the-magazine {
     border-bottom: 1px solid rgba(0,0,0,.1);
 }
+.in-the-magazine-box {
+    margin-top: 30px;
+}
+.old-issue {
+    margin-top: -10px;
+}
 .in-the-magazine-title {
-    font: bold 1.1rem 'Roboto Condensed', sans-serif;
+    font: bold 1.2rem 'Roboto Condensed', sans-serif;
+}
+.article-type-1 {
+    background: #f72210;
+    font-weight: 600;
+    font-size: 0.9rem;
+    color: white;
+    margin: 10px 0;
+}
+.article-type-2 {
+    font-weight: 600;
+    font-size: 0.9rem;
+    color: #f72210; 
+    margin: 10px;
+}
+.see-all-features {
+    font-weight: 600;
+    font-size: 1.1rem;
+    background: #f4f5f6;
+    height: 40px;
+}
+.in-focus {
+    bottom: 0;
+    left: 0;
+    color: white;
+    background: #f72210;
+    font-weight: 600;
+    font-size: 0.9rem;
 }
 @media all and (max-width: 991.98px) {
     header {
