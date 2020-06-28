@@ -31,12 +31,10 @@ header h1 {
 .fa-user {
 color: rgba(255, 255, 255, 0.7);
 }
-.nav-link {
-    color: black;
+.navbar {
+    border-bottom: 1px solid gray;
 }
-.sections {
-border: 1px solid red;
-}
+
 .section-title {
     font-size: .9rem;
     color: rgba(3,3,3,.4);
@@ -48,7 +46,7 @@ border: 1px solid red;
     line-height: 1.3;
     padding-top: 0.7rem;
 }
-.featured-description {
+.article-description {
     font-family: Arial,Helvetica,sans-serif;
     font-size: .95rem;
     color: #333;
@@ -66,6 +64,96 @@ border: 1px solid red;
     line-height: 1.3;
     font-size: .9rem;
     margin-top: 15px;
+}
+.more-stories {
+    border-top: 1px solid rgba(0,0,0,.1);
+}
+.more-stories-box {
+    height: 125vh;
+    width: 100%;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+.more-stories-box::-webkit-scrollbar {
+    display: none;
+}
+.more-stories-title {
+    font: bold 1rem 'Roboto', sans-serif;
+    padding-left: 105px;
+}
+.more-stories-description {
+    padding-left: 105px;
+}
+.debate-top {
+    border-top: 4px solid #f72210;
+    border-bottom: 4px double rgba(0,0,0,.1);
+}
+.debate-bottom {
+    border-bottom: 4px solid skyblue;
+}
+.debate-title {
+    font: bold 1rem 'Roboto Condensed', sans-serif;
+}
+.debate-author {
+    font-variant: small-caps;
+    font-size: .825rem;
+    font-weight: 600;
+}
+.vs {
+    border-radius: 50px;
+    background: black;
+    color: lightgray;
+    width: 35px;
+    height: 35px;
+    font-size: 0.9rem;
+    font-weight: 600;
+    position: absolute;
+    left: 42%;
+    top: 42%;
+}
+.opinion-box {
+    border-bottom: 1px solid rgba(0,0,0,.1);
+}
+.opinion-title {
+    font: bold 1rem 'Roboto Condensed', sans-serif;
+    margin-left: 20px;
+}
+.opinion-author {
+    font-variant: small-caps;
+    font-size: .825rem;
+    font-weight: 600;
+    margin-left: 20px;
+    margin-top: 5px;
+}
+.sign-up-box {
+    padding: 10px;
+    background: #f4f5f6;
+    width: 300px;
+}
+.red-box {
+    background: #f72210;
+    font-weight: 900;
+    color: white;
+    margin-right: 10px;
+    font-size: 1.5rem;
+    height: 30px;
+    width: 30px;
+}
+.red-box-aside {
+    font: 600 1.1rem 'Roboto Condensed';
+}
+.subscribe-form input {
+    width: 100%;
+    margin-bottom: 10px;
+}
+.subscribe-form button {
+    width: 100%;
+}
+.in-the-magazine {
+    border-bottom: 1px solid rgba(0,0,0,.1);
+}
+.in-the-magazine-title {
+    font: bold 1.1rem 'Roboto Condensed', sans-serif;
 }
 @media all and (max-width: 991.98px) {
     header {
