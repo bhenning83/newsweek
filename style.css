@@ -2,8 +2,6 @@
 .page-wrap {
     max-width: 1310px;
     margin: 0 auto;
-    border: 1px solid red;
-    padding: 0;
     font-family: 'Roboto', sans-serif;
 }
 header {
@@ -31,12 +29,15 @@ header h1 {
     font-size: 2rem;
 }
 .fa-user {
-color: rgba(255, 255, 255, 0.7);
+    color: rgba(255, 255, 255, 0.7);
 }
 .navbar {
-    border-bottom: 1px solid gray;
+    border-bottom: 1px solid rgba(0,0,0,.1);
+    margin-bottom: 25px;
 }
-
+.sub-header-wrap {
+    padding: 0 15px;
+}
 .section-title {
     font-size: .9rem;
     color: rgba(3,3,3,.4);
@@ -151,7 +152,7 @@ color: rgba(255, 255, 255, 0.7);
 .subscribe-form button {
     width: 100%;
 }
-.in-the-magazine {
+.new-section {
     border-bottom: 1px solid rgba(0,0,0,.1);
 }
 .in-the-magazine-box {
@@ -189,6 +190,25 @@ color: rgba(255, 255, 255, 0.7);
     background: #f72210;
     font-weight: 600;
     font-size: 0.9rem;
+}
+.editors-picks-box {
+    border-bottom: 1px solid rgba(0,0,0,.1);
+    padding-bottom: 25px;
+}
+.topic-heading {
+    color: #f72210;
+    font-weight: 600;
+    font-size: 1.3rem;
+}
+.topic-section-title {
+    font: bold 1.3rem 'Roboto Condensed', sans-serif;
+}
+.topic-section-title-small {
+    font: bold 1rem 'Roboto Condensed', sans-serif;
+}
+.small-article {
+    border-bottom: 1px solid rgba(0,0,0,.1);
+    padding: 10px 0;
 }
 @media all and (max-width: 991.98px) {
     header {
