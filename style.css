@@ -145,12 +145,19 @@ header h1 {
 .red-box-aside {
     font: 600 1.1rem 'Roboto Condensed';
 }
+.subscribe-box {
+    background: #f4f5f6;
+    padding: 10px;
+}
 .subscribe-form input {
     width: 100%;
     margin-bottom: 10px;
 }
-.subscribe-form button {
-    width: 100%;
+.subscribe-button {
+    background: #f72210;
+    color: white;
+    border: none;
+    border-radius: 4px;
 }
 .new-section {
     border-bottom: 1px solid rgba(0,0,0,.1);
@@ -195,6 +202,9 @@ header h1 {
     border-bottom: 1px solid rgba(0,0,0,.1);
     padding-bottom: 25px;
 }
+.topic-wrap {
+    border-bottom: 1px solid rgba(0,0,0,.1);
+}
 .topic-heading {
     color: #f72210;
     font-weight: 600;
@@ -210,6 +220,61 @@ header h1 {
     border-bottom: 1px solid rgba(0,0,0,.1);
     padding: 10px 0;
 }
+.last-small-article {
+    border: none;
+}
+footer {
+    padding: 0 15px;
+}
+.footer-section-title {
+    font-size: 0.95rem;
+    font-weight: 600;
+    color: #f72210;
+}
+.footer-title {
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+.footer-subscribe-wrap {
+    z-index: 1;
+    display: flex;
+    background: #f4f5f6;
+    padding: 30px;
+}
+.old-cover-box {
+    z-index: -1;
+    position: relative;
+    min-width: 250px;
+    height: 250px;
+    margin-right: 40px;
+}
+.old-cover-box > img:first-of-type {
+    left: 0;
+}
+.old-cover-box > img:last-of-type {
+    right: 0;
+    top: 20px; 
+}
+.footer-text-box {
+    align-self: center;
+}
+.footer-p {
+    font-size: 0.95rem;
+    font-weight: 100;
+}
+.newsletter-image {
+    background: url("https://d.newsweek.com/en/full/1541302/starting5-homepage.png?w=397&h=265&q=90&f=742bce9a6f72dd8f19ba2e7fd5db06e5");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-width: 50%;
+    height: 310px;
+}
+.newsletter-text-box {
+    border: 1px solid rgba(0,0,0,.1);
+    border-left: none;
+    width: 100%;
+}
 @media all and (max-width: 991.98px) {
     header {
         height: 50px;
@@ -220,6 +285,10 @@ header h1 {
     header h1 {
         font-size: 2rem;
     }
+    .newsletter-image {
+        max-height: 233px;
+        min-width: 190px;
+    }
 }
 @media all and (max-width: 767.98px) {
     #my-ad-free {
@@ -227,5 +296,40 @@ header h1 {
     }
     .custom-toggler {
         font-size: 1.5rem;
+    }
+    .footer-subscribe-wrap {
+    padding-top: 210px;
+    padding-bottom: 20px;
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: auto;
+    }
+    .footer-text-box {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .old-cover-box {
+        position: absolute;
+        top: 35px;
+        margin: 0
+    }
+    .footer-title {
+        text-align: center;
+    }
+    .newsletter-text-box {
+        border-left: 1px solid rgba(0,0,0,.1);
+    }
+    .newsletter-image {
+        display: none;
+    }
+    .footer-p {
+        font-size: 0.9rem;
+    }
+    .footer-title {
+        font-size: 1.1rem;
     }
 }
