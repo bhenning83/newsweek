@@ -216,10 +216,6 @@ header h1 {
 .topic-section-title-small {
     font: bold 1rem 'Roboto Condensed', sans-serif;
 }
-.small-thumbnail {
-    min-width: 95px;
-    max-height: 95px;
-}
 .small-article {
     border-bottom: 1px solid rgba(0,0,0,.1);
     padding: 10px 0;
