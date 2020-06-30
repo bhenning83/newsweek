@@ -275,6 +275,25 @@ footer {
     border-left: none;
     width: 100%;
 }
+hr {
+    color: rgba(0,0,0,.1)
+}
+.footer-logo {
+    color: red;
+    font-size: 3rem;
+    font-weight: 600;
+}
+.footer-2 {
+    border-bottom: 1px solid rgba(0,0,0,.1);
+}
+.footer-3 {
+    font-size: 0.9rem;
+}
+footer li {
+    border-right: 1px solid rgba(0,0,0,.1);
+    padding: 0 7px;
+    display: inline-block;
+}
 @media all and (max-width: 991.98px) {
     header {
         height: 50px;
@@ -331,5 +350,8 @@ footer {
     }
     .footer-title {
         font-size: 1.1rem;
+    }
+    footer li {
+        border: none;
     }
 }
